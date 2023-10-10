@@ -7,25 +7,56 @@ html, body, h1, h2, h3, p, ol, ul, li, a, nav {
 }
 
 nav {
-text-decoration: none;
-display: flex;   
-justify-content: center;
-gap: 3em;
+
 }
 
 a{
     text-decoration: none;
+    color: white;
+    padding: 1em;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     text-align: center;
-    
 }
 body {
     background-color: rgba(255, 132, 101, 0.877);
+    margin: 0;
+    padding: 0;
+}
+
+.side-nav {
+    width: 150px;
+    height: 100%;
+}
+
+.side-nav ul {
+   list-style-type: none;
+   padding: 0;
     
 }
+
+.side-nav ul li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.side-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.side-nav ul li a:hover {
+    background-color: #444;
+}
+
+
+header {
+   text-align: center;
+}
+
 
 
